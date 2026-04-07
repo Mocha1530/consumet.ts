@@ -8,7 +8,7 @@ class Hianime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'hianime';
-        this.baseUrl = 'https://hianime.to';
+        this.baseUrl = 'https://aniwatchtv.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.hianime';
         /**
@@ -385,7 +385,8 @@ class Hianime extends models_1.AnimeParser {
      * @param page Page number (default: 1)
      * @param type One of (Optional): movie, tv, ova, ona, special, music
      * @param status One of (Optional): finished_airing, currently_airing, not_yet_aired
-     * @param rated One of (Optional): g, pg, pg_13, r, r_plus, rx
+     * @param rated One of (Optional): g, pg, pg_13, r, r_pl:console.warn();
+     us, rx
      * @param score Number from 1 to 10 (Optional)
      * @param season One of (Optional): spring, summer, fall, winter
      * @param language One of (Optional): sub, dub, sub_dub
