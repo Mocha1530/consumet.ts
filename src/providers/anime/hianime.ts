@@ -35,7 +35,7 @@ class Hianime extends AnimeParser {
     if (0 >= page) {
       page = 1;
     }
-    const searchUrl = `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`;
+    const searchUrl = `${this.baseUrl}/?s=${decodeURIComponent(query)}&page=${page}`;
     return this.scrapeCardPage(searchUrl);
   }
   /**
