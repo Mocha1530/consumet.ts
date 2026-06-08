@@ -8,7 +8,7 @@ class Hianime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'hianime';
-        this.baseUrl = 'https://aniwatchtv.to';
+        this.baseUrl = 'https://aniwatch.co.at';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.hianime';
         /**
